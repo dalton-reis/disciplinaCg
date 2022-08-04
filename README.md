@@ -1,16 +1,14 @@
-<!-- Disciplina OLD <https://ava3.furb.br/course/view.php?id=24150> -->
+# Disciplina de Computação Gráfica  
 
-# Disciplina de Computação Gráfica
+Material da disciplina de Computação Gráfica.  
 
-Material da disciplina de Computação Gráfica.
+## Atenção  
 
-## Atenção
+Faça o seu trabalho, cópias receberão nota zero. O professor pode a qualquer momento questionar e avaliar o trabalho desenvolvido. O aluno deve demonstrar conhecimento do código implementado respondendo principalmente questões relacionadas ao conteúdo apresentado, e não somente saber "ler" o código desenvolvido.  
 
-Todos os trabalhos serão desenvolvidos em equipe (máximo três alunos) e devem ser postados no GitHub até a data definida no [cronograma](cronograma.md "cronograma").
+O GitHub de cada equipe vai ser criado pelo professor após as definições das equipes. Então não esqueça de definir a sua equipe usando no AVA3, onde somente um aluno da equipe posta o **nome completo** dos integrantes e também os **usuários do GitHub**. Aconselhasse fortemente manter os mesmos integrantes que compõem a equipe até o final do semestre.  
 
-O GitHub de cada equipe vai ser criado pelo professor após as definições das equipes. Então não esqueça de definir a sua equipe usando no AVA3, onde somente um aluno da equipe posta o nome completo dos integrantes. Aconselhasse fortemente manter os mesmos integrantes que compõem a equipe até o final do semestre.
-
-Lembrem de postar junto com o nome do aluno também o seu **usuário no GitHub**.
+Todos os trabalhos serão desenvolvidos em equipe (**máximo três alunos**) e devem ser postados no GitHub até a data definida no [cronograma](cronograma.md "cronograma").  
 
 ## [Matriz curricular BCC](matriz_BCC.pdf "Matriz curricular BCC")  
 
