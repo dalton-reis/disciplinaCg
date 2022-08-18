@@ -21,3 +21,12 @@ O que deve ser feito:
 ## Gabarito
 
 ![Gabarito](AtividadeGabarito_N1.png "Gabarito")  
+
+----------
+
+### ⏭ [Unidade 2)](../Unidade2/README.md "Unidade 2")  
+
+<!--
+[FIXME: arrumar as fontes bibliográficas]  
+## Principais Referências Bibliográficas​
+-->
