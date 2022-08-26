@@ -1,5 +1,0 @@
-@startuml Program
-!include ./Program.wsd
-/'!include ./obj/Debug/net6.0/.NETCoreApp,Version=v3.1.AssemblyAttributes.wsd'/
-/'!include ./obj/Debug/net6.0/CG_N2_OpenTK.AssemblyInfo.wsd'/
-@enduml
