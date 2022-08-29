@@ -7,6 +7,7 @@ Objetivo: identificar os conceitos gerais da Computação Gráfica e as principa
 ## Material  
 
 [cg-slides_u1.pdf](./cg-slides_u1.pdf "cg-slides_u1.pdf")  
+[Exemplo de Qualidade Gráfica](QualidadeGrafica.mp4 "Exemplo de Qualidade Gráfica")  
 
 ## Atividades  
 
