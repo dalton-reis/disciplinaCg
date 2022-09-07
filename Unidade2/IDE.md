@@ -1,52 +1,47 @@
 # OpenGL (C#.OpenTK)
 
-Para o desenvolvimento do nosso código gráfico iremos usar a biblioteca OpenGL com a ajuda do OpenTK. E com a linguagem C# com exemplo demonstrados no VSCode.  
+Para o desenvolvimento do nosso código gráfico iremos usar a biblioteca OpenGL por intermédio do OpenTK, com a linguagem C# e a IDE VSCode.  
 
 ## Ambiente de Desenvolvimento  
 
-O primeiro passo é ter um ambiente de desenvolvimento com o OpenTK (biblioteca gráfica), SDK do .NET Core (linguagem de programação C#) e a IDE VSCode. Bom, olhe as instruções em [OpenTK SDK - Core VSCode](./README.md#opentk-sdk---core-vscode).  
+O primeiro passo é ter um ambiente de desenvolvimento com o OpenTK (biblioteca gráfica), SDK do .NET Core (linguagem de programação C#).  
 
 ### OpenTK SDK - Core VSCode
 
-Como executar aplicações utilizando o OpenTK no Visual Studio Code.  
+Como executar aplicações utilizando o OpenTK no Visual Studio Code (VSCode).  
 
 #### Pré-requisitos _________________  
 
 1) ter o SDK do .NET Core (<https://www.microsoft.com/net/download>)  
 2) ter o Visual Studio Code (<https://code.visualstudio.com/>)  
-3) instalar as extensões do VSCode (disponível no site ou pelo próprio editor - <https://code.visualstudio.com/docs/editor/extension-gallery>):  
+3) instalar a extensão do VSCode:
 
-- C# (<https://marketplace.visualstudio.com/items?itemName=ms-vscode.csharp>)  
-- NuGet Package Manager (<https://marketplace.visualstudio.com/items?itemName=jmrog.vscode-nuget-package-manager>)  
+- C# ([https://marketplace.visualstudio.com/items?itemName=ms-vscode.csharp](https://marketplace.visualstudio.com/items?itemName=ms-vscode.csharp "https://marketplace.visualstudio.com/items?itemName=ms-vscode.csharp")  
+
+Se necessário, se pode obter mais informações sobre extensões o VSCode em: [https://code.visualstudio.com/docs/editor/extension-gallery](https://code.visualstudio.com/docs/editor/extension-gallery "https://code.visualstudio.com/docs/editor/extension-gallery")  
 
 #### Passo a passo
 
-Para os passos a seguir é possível utilizar o prompt do Windows (cmd) ou o terminal do VSCode.  
+Para os passos a seguir é possível utilizar o prompt do Windows (cmd), terminal do MacOS (terminal), ou o próprio terminal do VSCode.  
 Crie uma nova pasta que será o diretório do projeto OpenTK no VSCode e navegue até ela. Nesse exemplo o nome da pasta será 'OlaMundo':  
 
   $ mkdir OlaMundo
   $ cd OlaMundo  
 
-Em seguida crie um Console Application nessa pasta:  
+Em seguida crie um ```Console Application``` nessa pasta:  
 
- $ dotnet new console  
+  $ dotnet new console  
 
-Nesse ponto um novo arquivo Program.cs contendo um método main é criado automaticamente. Para executar o projeto digite:  
+Nesse ponto um novo arquivo Program.cs contendo um método main é criado. Para executar o projeto digite:  
 
   $ dotnet run  
 
-Se o projeto foi criado corretamente a mensagem 'Hello World' aparecer no terminal.  
+Se o projeto foi criado corretamente, após a sua execução deve aparecer a mensagem 'Hello World' no terminal.  
 Agora para incluir o OpenTK e os outros pacotes necessários no projeto digite:  
 
-  $ dotnet add package OpenTK --version 3.0.1  
-  $ dotnet add package Microsoft.Win32.SystemEvents --version 4.5.0  
-  $ dotnet add package System.Drawing.Common --version 4.5.0  
-
-Esses comandos estão disponíveis, respectivamente, em:  
-
-- <https://www.nuget.org/packages/OpenTK/3.0.1>  
-- <https://www.nuget.org/packages/Microsoft.Win32.SystemEvents/>  
-- <https://www.nuget.org/packages/System.Drawing.Common/>  
+  $ dotnet add package OpenTK --version 3.0.1 <!-- https://www.nuget.org/packages/OpenTK/3.0.1 -->  
+  $ dotnet add package Microsoft.Win32.SystemEvents --version 4.5.0 <!-- https://www.nuget.org/packages/Microsoft.Win32.SystemEvents/ -->  
+  $ dotnet add package System.Drawing.Common --version 4.5.0 <!-- https://www.nuget.org/packages/System.Drawing.Common/ -->  
 
 Nesse ponto, para testar se o OpenTK está funcionando, acrescente as duas linhas de código a seguir no método main e re-execute o projeto (não se esqueça de adicionar a linha 'using OpenTK;' no cabeçalho da classe):  
 
@@ -60,7 +55,7 @@ Caso ocorra algum erro de 'undefined command' tente executar o comando 'dotnet r
 
 OBS: Caso apareça algum erro do tipo:  
   'System.IO.FileNotFoundException: Could not load file or assembly...'  
-simplesmente pesquise o nome do arquivo que está faltando no site <https://www.nuget.org/> e execute a versão do comando .NET CLI no diretório do projeto pelo terminal.  
+simplesmente pesquise o nome do arquivo que está faltando no site [https://www.nuget.org/](https://www.nuget.org/ "https://www.nuget.org/") e execute a versão do comando .NET CLI no diretório do projeto pelo terminal.  
 
 ##### Para executar projetos OpenTK no Linux _________________  
 
