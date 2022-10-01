@@ -111,6 +111,8 @@ Para controlar o movimento do centro do círculo menor deve ser usado:
 – um teste inicial pela BBox interna do círculo maior;  
 – seguido do cálculo da distância (euclidiana, sem raiz).  
 
+  ![\normalsize&space;distancia=\sqrt{(x_{2}-x_{1})^2+(y_{2}-y_{1})^2}](https://latex.codecogs.com/svg.latex?\normalsize&space;distancia=\sqrt{(x_{2}-x_{1})^2+(y_{2}-y_{1})^2})  
+
 Exemplo, vídeo a baixo.  
 
 Aqui só use as classes [CG_N2_Retangulo] e ```Circulo``` para fazer as representações dos objetos abaixo. E não esqueça de usar o código da classe [CG_Biblioteca_BBox].  
