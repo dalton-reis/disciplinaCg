@@ -1,9 +1,0 @@
-@startuml Mundo
-class Mundo {
-    + Mundo(width:int, height:int)
-}
-class Program {
-    {static} Main(args:string[]) : void
-}
-GameWindow <|-- Mundo
-@enduml
