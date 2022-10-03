@@ -27,68 +27,64 @@ Observação: as funções do OpenGL/OpenTK "glTranslate", "glRotate" e "glScale
 
 ## 1. Especificação
 
-[Peso 0,5] Especifique as classes, métodos e atributos usando Diagrama de Classes.  
+\[Peso 0,5] Especifique as classes, métodos e atributos usando Diagrama de Classes.  
 
 ## 2. Estrutura de dados: polígono
 
-[Peso 0,5] Insira e remova polígonos da cena gráfica.  
+\[Peso 0,5] Insira e remova polígonos da cena gráfica.  
 
 ## 3. Estrutura de dados: vértices
 
-[Peso 1,0] Ao clicar na tela utilizando o mouse selecione o vértice mais próximo do polígono selecionado para pode mover ou remover o respectivo vértice.  
+\[Peso 1,0] Ao clicar na tela utilizando o mouse selecione o vértice mais próximo do polígono selecionado para pode mover ou remover o respectivo vértice.  
 
 Atenção: no caso do mover o vértice o valores da coordenada é alterada e não os valores da matriz de transformação.  
 
 ## 4. Visualização: rastro
 
-[Peso 0,5] Exiba o “rasto” ao desenhar os segmentos do polígono.  
+\[Peso 0,5] Exiba o “rasto” ao desenhar os segmentos do polígono.  
 
 ## 5. Interação: desenho
 
-[Peso 1,0] Utilize o mouse para clicar na tela e desenhar polígonos (aberto ou fechado).  
+\[Peso 1,0] Utilize o mouse para clicar na tela e desenhar polígonos (aberto ou fechado).  
 
 ## 6. Interação: cores
 
-[Peso 0,5] Utilize o teclado (teclas R=vermelho,G=verde,B=azul) para trocar as cores dos polígonos selecionado.  
+\[Peso 0,5] Utilize o teclado (teclas R=vermelho,G=verde,B=azul) para trocar as cores dos polígonos selecionado.  
 
 ## 7. Interação: BBox
 
-[Peso 1,5] Utilizando o mouse selecione um polígono (convexo ou côncavo) usando detecção hierárquica filtrando primeiro pela BBox e, se for interno a BBox então testar usando Scan Line (exibir a BBox do polígono selecionado usando a cor amarela).  
+\[Peso 1,5] Utilizando o mouse selecione um polígono (convexo ou côncavo) usando detecção hierárquica filtrando primeiro pela BBox e, se for interno a BBox então testar usando Scan Line (exibir a BBox do polígono selecionado usando a cor amarela).  
 
 ## 8. Transformações Geométricas: translação
 
-[Peso 1,0] Utilizando o mouse movimente o polígono selecionado.  
+\[Peso 1,0] Utilizando o mouse movimente o polígono selecionado.  
 
 Atenção: usar matriz de transformação e não alterar os valores dos vértices dos polígonos.  
 
 ## 9. Transformações Geométricas: escala
 
-[Peso 1,0] Utilizando o mouse redimensione o polígono selecionado em relação ao centro da sua BBox.  
+\[Peso 1,0] Utilizando o mouse redimensione o polígono selecionado em relação ao centro da sua BBox.  
 
 Atenção: usar matriz de transformação e não alterar os valores dos vértices dos polígonos.  
 
 ## 10. Transformações Geométricas: rotação
 
-[Peso 1,0] Utilizando o mouse gire o polígono selecionado em relação ao centro da sua BBox.  
+\[Peso 1,0] Utilizando o mouse gire o polígono selecionado em relação ao centro da sua BBox.  
 
 Atenção: usar matriz de transformação e não alterar os valores dos vértices dos polígonos.  
 
 ## 11. Grafo de cena: selecionar
 
-[Peso 0,5] Permita adicionar polígonos “filhos” num polígono selecionado utilizando a estrutura do grafo de cena.  
+\[Peso 0,5] Permita adicionar polígonos “filhos” num polígono selecionado utilizando a estrutura do grafo de cena.  
 
 Atenção: usar matriz de transformação global para acumular transformações de acordo com o grafo de cena.  
 
 ## 12. Grafo de cena: transformação
 
-[Peso 1,0] Considere a transformação global ao transformar (translação/escala/rotação) um polígono “pai”.  
+\[Peso 1,0] Considere a transformação global ao transformar (translação/escala/rotação) um polígono “pai”.  
 
 Atenção: usar matriz de transformação global para acumular transformações de acordo com o grafo de cena.  
 
 ## Atenção
 
 A avaliação da atividade envolve o desenvolvimento das questões acima apresentadas, mas o mais importante é o integrante da equipe demonstrar conhecimento além do código desenvolvido, também os conceitos apresentados em aula relacionados com a atividade em si.
-
-## Gabarito
-
-![Gabarito](AtividadeGabarito_N3.png "Gabarito")  
