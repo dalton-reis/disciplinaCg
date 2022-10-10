@@ -77,14 +77,14 @@ Nesse ponto um novo arquivo Class1.cs contendo a definição de uma classe é cr
 
 ### CG_N2_OpenTK_NAO_Usar
 
-O segundo passo é olhar o exemplo de código em [CG_N2_OpenTK_NAO_Usar](./CG_N2_OpenTK_NAO_Usar/ "CG_N2_OpenTK_NAO_Usar").  
+O segundo passo é olhar o exemplo de código em [CG_N2_OpenTK_NAO_Usar](CG_N2_OpenTK_NAO_Usar "CG_N2_OpenTK_NAO_Usar").  
 
 Este é um exemplo simples usando o OpenTK e sobre-escrevendo os principais métodos usados no Render Gráfico.  
 
 - As classes utilizadas são:  
   
-![[erro](https://github.com/dalton-reis/disciplina-cg/blob/master/CG_N2_OpenTK_NAO_Usar/docs/CG_N2_OpenTK_NAO_Usar_Classes.png)](https://github.com/dalton-reis/disciplina-cg/blob/master/CG_N2_OpenTK_NAO_Usar/docs/CG_N2_OpenTK_NAO_Usar_Classes.png "Classes")
+![[Classes](https://github.com/dalton-reis/disciplina-cg/blob/master/CG_N2_OpenTK_NAO_Usar/docs/CG_N2_OpenTK_NAO_Usar_Classes.png)](https://github.com/dalton-reis/disciplina-cg/blob/master/CG_N2_OpenTK_NAO_Usar/docs/CG_N2_OpenTK_NAO_Usar_Classes.png "Classes")
 
 - E os métodos do ciclo de Render são:  
 
-![https://github.com/dalton-reis/disciplina-cg/blob/master/CG_N2_OpenTK_NAO_Usar/docs/CG_N2_OpenTK_NAO_Usar_Sequencia.png](https://github.com/dalton-reis/disciplina-cg/blob/master/CG_N2_OpenTK_NAO_Usar/docs/CG_N2_OpenTK_NAO_Usar_Sequencia.png "Sequência")
+![Sequência](https://github.com/dalton-reis/disciplina-cg/blob/master/CG_N2_OpenTK_NAO_Usar/docs/CG_N2_OpenTK_NAO_Usar_Sequencia.png "Sequência")
